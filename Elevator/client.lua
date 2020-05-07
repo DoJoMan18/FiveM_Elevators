@@ -63,7 +63,7 @@ Citizen.CreateThread(function ()
 
                 if GetDistanceBetweenCoords(PlayerLocation.x, PlayerLocation.y, PlayerLocation.z, Level.x, Level.y, Level.z, true) < 2.0 then
                     -- Sent information how to use
-                    MessageUpLeftCorner("Gebruik: ~INPUT_FRONTEND_UP~ of ~INPUT_FRONTEND_DOWN~")
+                    MessageUpLeftCorner("Use: ~INPUT_FRONTEND_UP~ of ~INPUT_FRONTEND_DOWN~")
                     LevelUp = k + 1
                     LevelDown = k - 1
 
