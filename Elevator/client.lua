@@ -55,7 +55,7 @@ Citizen.CreateThread(function()
     end
     while true do
         Citizen.Wait(5)
-        local player = GetPlayerPed(-1)
+        local player = PlayerPedId()
         local PlayerLocation = GetEntityCoords(player)
 
         for i = 1, #elevators do
