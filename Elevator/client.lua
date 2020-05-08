@@ -86,7 +86,7 @@ Citizen.CreateThread(function()
                     end
                     if floorDown then
                         -- Show prompt to go down
-                        message = message .. "~n~" .. "~INPUT_FRONTEND_DOWN~ " .. (floorDown[4] or "Floor " .. k - 1)
+                        message = message .. "~n~" .. "~INPUT_FRONTEND_DOWN~ " .. (floorDown[2] or "Floor " .. k - 1)
                     end
 
                     -- Sent information how to use
